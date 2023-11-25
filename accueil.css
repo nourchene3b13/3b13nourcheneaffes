@@ -1,0 +1,72 @@
+
+.code1{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image2{
+    width: 30% ;
+    height: 60%;
+    position: absolute;
+    right: 100px ;
+    bottom:0;
+ }
+ .image2 img{
+    position : absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-50%);
+    bottom:0;
+    transition: left 2s;
+ }
+ .image2:hover .girl{
+    left: 55%;
+ }
+ .info2{
+    margin-left: 15%;
+    margin-top: 5%;
+ }
+ .info2 h3{
+    font-size: 30px;
+    color: #808080;
+ }
+ .info2 h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+ }
+ .info3{
+    margin-left: 15%;
+    margin-top: 5%;
+ }
+ .info3 h5{
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #556B2F;
+ }
+ .info2 span{
+    color: #556B2F;
+ }
+ u1{
+    margin-top: -4% ;
+ }
+ u1 li {
+    list-style: none;
+    display: inline-block ;
+    padding : 10px 16px ;
+ }
+ u1 li a{
+    font-size: 16px ;
+    font-weight: bold;
+    text-decoration: none ;
+    color: #141414;
+    margin-top: -3%;
+    transition: .4s ease ;
+ }
+ u1 li a:hover{
+    color:#B22222;
+ }
+ 

@@ -1,0 +1,153 @@
+.contact{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tel{
+
+    transform: translateX(30%) translateY(50%);
+
+
+
+}
+.mail {
+
+    
+    transform: translateX(60%) translateY(0%);
+
+}
+.tel a{
+    font-size: 16px ;
+    font-weight: bold;
+    text-decoration: none ;
+    color: #141414;
+    margin-top: -3%;
+    transition: .4s ease ;
+ }
+ .tel a:hover{
+    color:#B22222;
+ }
+
+ 
+ .mail a{
+
+    font-size: 16px ;
+    font-weight: bold;
+    text-decoration: none ;
+    color: #141414;
+    margin-top: -3%;
+    transition: .4s ease ;
+ }
+ .mail a:hover{
+    color:#B22222;
+ }
+
+
+
+#input1{
+    width: 170px;
+    height: 35px; 
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+#input2{
+    width: 170px;
+    height: 35px; 
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+#input3{
+    width: 170px;
+    height: 35px; 
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+
+.btn{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: #000000;
+    display: inline-block;
+    width: 120px;
+    height: 10px;
+    padding: 20px;
+    line-height: 1px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    position: relative;
+    left: 33px;
+    top: 15px;
+  
+  }
+  .btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .input{
+    text-align: center; /* Center text inside the container */
+}
+#input3 {
+    position: relative;
+    left: -10px;
+}
+#input2 {
+    position: relative;
+    left: -4px;
+}
+u1{
+    margin-top: 0% ;
+ }
+ u1 li {
+    list-style: none;
+    display: inline-block ;
+    padding : 10px 16px ;
+ }
+ u1 li a{
+    font-size: 16px ;
+    font-weight: bold;
+    text-decoration: none ;
+    color: #141414;
+    margin-top: -3%;
+    transition: .4s ease ;
+    position: relative;
+    left: 875px;
+   
+ }
+ u1 li a:hover{
+    color:#B22222;
+ }
+ .footer{
+    position: relative;
+    left: 850px;
+
+ }

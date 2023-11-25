@@ -1,0 +1,76 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .main{
+    width: 100% ;
+    background-position: center ;
+    background-size: cover ;
+    height: 100vh ;
+    position: relative ;
+    font-family: sans-serif ;
+ }
+ 
+ .navbar{
+    width: 86% ;
+    display: flex ;
+    margin: auto ;
+    padding: 15px 0;
+    align-items: center ;
+    justify-content: space-between ;
+ }
+ .navbar.logo{
+    width: 200px ;
+    cursor: pointer ;
+    margin-top: -3%;
+    margin-left: -2% ;
+ }
+ u1{
+    margin-top: -4% ;
+ }
+ u1 li {
+    list-style: none;
+    display: inline-block ;
+    padding : 10px 16px ;
+ }
+ u1 li a{
+    font-size: 16px ;
+    font-weight: bold;
+    text-decoration: none ;
+    color: #141414;
+    margin-top: -3%;
+    transition: .4s ease ;
+ }
+ u1 li a:hover{
+    color:#B22222;
+ }
+ .image{
+    width: 30% ;
+    height: 60%;
+    position: absolute;
+    right: 100px ;
+    bottom:0;
+ }
+ .image img{
+    position : absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-50%);
+    bottom:0;
+    transition: left 2s;
+ }
+ .image:hover .girl{
+    left: 55%;
+ }
+ .info{
+    margin-left: 15%;
+    margin-top: 5%;
+ }
+ .info h1{
+    font-size: 45px;
+    color: #808080;
+ }
+ .info h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+ }
