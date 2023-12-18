@@ -3,6 +3,34 @@
 <head>
 <title>Contacte moi</title>
 <link rel="stylesheet" href="contact-me.css">
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+         var sendButton = document.querySelector('.btn');
+            sendButton.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            var nom = document.getElementById('input1').value;
+            var email = document.getElementById('input2').value;
+            var message = document.getElementById('input3').value;
+
+            // Vérifie si l'email contient le symbole "@"
+            if (!isValidEmail(email)) {
+                alert("Veuillez saisir une adresse e-mail valide.");
+                return;
+            }  
+
+            console.log("Nom:", nom);
+            console.log("Email:", email);
+            console.log("Message:", message);
+        });
+
+        // Fonction pour vérifier la validité de l'email
+        function isValidEmail(email) {
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+    });
+</script>
 </head>
 <body>
 <div class="contact">
@@ -20,7 +48,7 @@
 
 <div class="mail">
     <img src="img/mail.jpg" width="40">
-    <a href = "mailto: abc@example.com">Send Email</a>
+    <a href = "mailto: Nourchene.affes@esprit.tn">mon mail</a>
 </div>
 
 

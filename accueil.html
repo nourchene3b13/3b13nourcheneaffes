@@ -3,6 +3,16 @@
 <head>
 <title>accueil</title>
 <link rel="stylesheet" href="accueil.css">
+<script>
+       //j ai fait le code loading page mais ça n'a pas marché
+       window.addEventListener("load",() => { 
+              const loader = document.querySelector(".loader");
+              loader.classList.add("loader-hidden");
+              loader.addEventListener("transitionnend",()=>{
+                     document.body.removeChild("loader");
+              })
+       })
+</script>
 </head>
 <body>
 
@@ -32,6 +42,7 @@
 <br>
 </div>
 <u1> <li><a href ="index.html">retour</a></li> </u1>
+<div class="loader"></div>
 
 
 
